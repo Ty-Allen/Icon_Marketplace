@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="headphones" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#231F20;}
+
+	#headphones:hover { fill: #0c5b6b;}
+	#headphones:hover .st0 { fill: #0c5b6b;}
+
 </style>
 <g id="Layer_1">
 	<path d="M56.3,174.5c-23.5,0-42.5-19-42.5-42.5s19-42.5,42.5-42.5"/>

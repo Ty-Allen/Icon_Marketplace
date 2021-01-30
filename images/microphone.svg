@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg id="microphone" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#231F20;}
 	.st1{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+
+	#microphone:hover { fill: #0c5b6b; }
+	#microphone:hover .st0 { fill: #0c5b6b}
+
 </style>
 <g id="Layer_1">
 	<path class="st0" d="M118.6,125.8H92.7c-6.6,0-12-5.4-12-12V52c0-6.6,5.4-12,12-12h25.9c6.6,0,12,5.4,12,12v61.7
