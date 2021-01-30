@@ -1,0 +1,175 @@
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#header
+{
+	width: 960px;
+	height: 100px;
+	background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(12,91,107,1) 100%);
+	display: flex;
+	flex-direction: row;
+}
+
+#logo
+{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+#logo h1
+{
+	color: #fff;
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: 32px;
+}
+
+#mainNav
+{
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 350px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#mainNav ul li a
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#mainNav ul li a:hover
+{
+	color: #4994e6;
+}
+
+#iconDesc
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#iconDesc h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 48px;
+	color: #0c5b6b;
+	margin-bottom: 5px;
+}
+
+#iconDesc h3
+{
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+#iconDesc
+{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 18px;
+}
+
+#iconImages
+{
+	display: flex;
+	flex-direction: column;
+	width: 940px;
+	margin-top: 50px;
+}
+
+#rowOne
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#rowOne object
+{
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
+
+#rowTwo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+#rowTwo object
+{
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+}
+
+footer
+{
+	width: 960px;
+	height: 100px;
+	background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(12,91,107,1) 0%, rgba(2,0,36,1) 100%);
+	display: flex;
+	flex-direction: row;
+}
+
+#footerText
+{
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#footerNav
+{
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 450px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+
+#footerNav ul
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#footerNav ul li a
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#footerNav ul li a:hover
+{
+	color: #4994e6;
+}

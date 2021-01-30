@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg id="doubleNote" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+
+	#doubleNote:hover .st0 { fill: #0c5b6b; }
+</style>
+<g id="Layer_1">
+
+		<ellipse transform="matrix(0.9661 -0.2581 0.2581 0.9661 -34.4556 17.8899)" class="st0" cx="50.9" cy="140.2" rx="28.9" ry="18.2"/>
+
+		<ellipse transform="matrix(0.9661 -0.2581 0.2581 0.9661 -31.6477 39.2828)" class="st0" cx="133.8" cy="140.2" rx="28.9" ry="18.2"/>
+</g>
+<g id="Layer_2">
+	<path class="st0" d="M80.4,60.4L67,60c-0.2,0-0.4,0.2-0.4,0.4l-1.9,76.7c0,0.2,0.2,0.4,0.4,0.4l13.4,0.3c0.2,0,0.7-0.8,0.7-1
+		l1.6-76C80.7,60.5,80.6,60.4,80.4,60.4z"/>
+	<path class="st0" d="M163.4,61.5l-14.1-0.3l-1.9,77.4l14.4-0.9c0.2,0,0.4-0.8,0.4-1L163.4,61.5z"/>
+</g>
+<g id="Layer_3">
+	<polygon class="st0" points="163.3,66.4 66.4,66.4 66.4,51.5 163.7,51.5 	"/>
+</g>
+<defs>
+	<script>
+		let doubleNote = document.querySelector("#doubleNote");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		doubleNote.addEventListener("click", logMyId);
+	</script>
+</defs>
+</svg>
