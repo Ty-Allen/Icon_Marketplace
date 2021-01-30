@@ -35,4 +35,15 @@
 	<line class="st1" x1="105.3" y1="51.7" x2="105.3" y2="108.3"/>
 	<line class="st1" x1="116.1" y1="51.7" x2="116.1" y2="108.3"/>
 </g>
+<defs>
+	<script>
+		let microphone = document.querySelector("#microphone");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		microphone.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>

@@ -45,4 +45,15 @@
 </g>
 <g id="Layer_2">
 </g>
+<defs>
+	<script>
+		let headphones = document.querySelector("#headphones");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		headphones.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>

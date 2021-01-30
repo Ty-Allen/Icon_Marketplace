@@ -53,4 +53,15 @@
 		</g>
 	</g>
 </g>
+<defs>
+	<script>
+		let drum = document.querySelector("#drum");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		drum.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>

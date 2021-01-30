@@ -27,4 +27,15 @@
 	<rect x="75.8" y="76.7" width="12.8" height="32.5"/>
 	<rect x="117" y="76.7" width="12.8" height="32.5"/>
 </g>
+<defs>
+	<script>
+		let piano = document.querySelector("#piano");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		piano.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>

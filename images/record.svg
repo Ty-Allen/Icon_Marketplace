@@ -24,4 +24,15 @@
 <g id="Layer_3">
 	<circle cx="101.3" cy="102.3" r="4.2"/>
 </g>
+<defs>
+	<script>
+		let record = document.querySelector("#record");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		record.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>

@@ -27,4 +27,15 @@
 	<path class="st2" d="M168.2,57.5c21.2,18.5,21.3,52.9,0.2,77.1"/>
 	<path class="st2" d="M152.4,68.3c15.3,13.3,15.3,38.2,0.2,55.6"/>
 </g>
+<defs>
+	<script>
+		let speaker = document.querySelector("#speaker");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		speaker.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>

@@ -21,4 +21,15 @@
 <g id="Layer_3">
 	<polygon class="st0" points="163.3,66.4 66.4,66.4 66.4,51.5 163.7,51.5 	"/>
 </g>
+<defs>
+	<script>
+		let doubleNote = document.querySelector("#doubleNote");
+
+		function logMyId() {
+			console.log(this.id);
+		}
+
+		doubleNote.addEventListener("click", logMyId);
+	</script>
+</defs>
 </svg>
